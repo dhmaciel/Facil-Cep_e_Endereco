@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_top">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="txt_label">16sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+    <dimen name="text_size_campos">18sp</dimen>
+    <dimen name="padding_padrao_campos">6dp</dimen>
+    <dimen name="margin_bottom">10dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+</resources>

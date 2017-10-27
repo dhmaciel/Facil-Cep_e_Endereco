@@ -1,0 +1,76 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    tools:context="com.example.worlo.cep_mvp.main.cep_mvp.CepFragment">
+
+    <LinearLayout
+        android:id="@+id/linear_cep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_padrao_campos"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/padding_padrao_campos"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:paddingTop="@dimen/padding_padrao_campos">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:src="@mipmap/ic_place" />
+
+            <EditText
+                android:id="@+id/edt_num_cep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:hint="@string/hint_cep"
+                android:inputType="number"
+                android:textColor="@color/textColorSecondary"
+                android:textSize="@dimen/text_size_campos"
+                android:maxLength="9"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_cep_limpar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_limpar"
+            android:textColor="@color/textColorSecondaryLabel"
+            android:textStyle="bold"
+            android:layout_gravity="end"
+            android:paddingBottom="@dimen/margin_bottom" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_padrao_campos">
+
+            <Button
+                android:id="@+id/btn_cep_pesquisar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pesquisar"
+                android:background="@drawable/shape_buttom"
+                android:textColor="@color/textColorPrimary"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+

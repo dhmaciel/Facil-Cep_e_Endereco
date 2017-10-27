@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Fácil - Cep e Endereço</string>
+    <string name="resultado_name">Resultado Pesquisa</string>
+
+    <!-- Geral -->
+    <string name="config_base_url">https://viacep.com.br/ws/</string>
+    <string name="carregando">carregando...</string>
+    <string name="txt_limpar">Limpar</string>
+    <string name="pesquisar">Pesquisar</string>
+
+    <!-- Main Activity-->
+
+    <string name="hint_cidade">Cidade</string>
+    <string name="hint_logradouro">Logradouro</string>
+    <string name="label_main_erro_pesquisa">Sem resultados para pesquisa solicitada!</string>
+    <string name="toast_erro_qtd_digitos_invalido_cep">Cep deve possuir 8 caracteres!</string>
+    <string name="toast_erro_qtd_digitos_invalido_endereco">Cidade e logradouro deve possuir pelo menos 3 caracteres!</string>
+    <string name="toast_campos_obrigatorios">Todos os campos são obrigatórios!</string>
+
+    <!-- Detalhes Activity -->
+    <string name="detalhes_sem_dados">Sem resultados para pesquisa!</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_title_cep">CEP</string>
+    <string name="fragment_title_endereco">ENDEREÇO</string>
+
+    <!-- Fragment Cep -->
+    <string name="hint_cep">Cep</string>
+    <string name="label_cep">Cep:</string>
+
+</resources>
