@@ -12,10 +12,6 @@ Estas instruções devem lhe guiar como instalar o aplicativo, qual versão da p
 
 Para instalação em um dispositivo este deve possuir no mínimo a versão 15 (Ice Cream Sandwich) do sistema android. Para navegar e alterar o código fonte é recomendado a IDE Android Studio com acesso a internet.
 
-### Capturas de telas
-
-![Alt text](https://preview.ibb.co/htOz1Q/Screenshot_Git_Hub.jpg "Telas app")
-
 ### Recursos
 
 Pesquisa por cep
